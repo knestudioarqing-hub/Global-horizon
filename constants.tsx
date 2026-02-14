@@ -1,5 +1,5 @@
 
-import { Destination, Benefit, Vehicle } from './types.ts';
+import { Destination, Benefit, Vehicle, Hotel } from './types.ts';
 
 export const DESTINATIONS: Destination[] = [
   {
@@ -121,5 +121,32 @@ export const VEHICLES: Vehicle[] = [
     transmission: 'Automático',
     passengers: 7,
     category: 'Luxo 4x4'
+  }
+];
+
+export const HOTELS: Hotel[] = [
+  {
+    id: 'h1',
+    name: 'Belmond Hotel Splendido',
+    location: 'Portofino, Itália',
+    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop',
+    stars: 5,
+    highlight: 'Upgrade de Quarto Garantido'
+  },
+  {
+    id: 'h2',
+    name: 'Four Seasons Firenze',
+    location: 'Florença, Itália',
+    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=2650&auto=format&fit=crop',
+    stars: 5,
+    highlight: 'Café da Manhã Cortesia'
+  },
+  {
+    id: 'h3',
+    name: 'Castiglion del Bosco',
+    location: 'Toscana, Itália',
+    image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2670&auto=format&fit=crop',
+    stars: 5,
+    highlight: 'Crédito de $100 em Spa'
   }
 ];

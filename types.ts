@@ -32,3 +32,12 @@ export interface Vehicle {
   passengers: number;
   category: string;
 }
+
+export interface Hotel {
+  id: string;
+  name: string;
+  location: string;
+  image: string;
+  stars: number;
+  highlight: string;
+}
