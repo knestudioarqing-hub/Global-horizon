@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import FeaturedDestinations from './components/FeaturedDestinations';
+import Testimonials from './components/Testimonials';
 import Benefits from './components/Benefits';
 import Footer from './components/Footer';
 import ChatWidget from './components/ChatWidget';
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Marquee />
         <FeaturedDestinations />
+        <Testimonials />
         <Benefits />
       </main>
       <Footer />
