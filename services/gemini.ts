@@ -1,9 +1,17 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+// Acessa a chave de forma segura
+const getApiKey = () => {
+  try {
+    return process.env.API_KEY || '';
+  } catch (e) {
+    return '';
+  }
+};
 
 export const startTravelChat = () => {
+  const ai = new GoogleGenAI({ apiKey: getApiKey() });
   return ai.chats.create({
     model: 'gemini-3-flash-preview',
     config: {
