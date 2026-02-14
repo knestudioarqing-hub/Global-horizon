@@ -1,5 +1,5 @@
 
-import { Destination, Benefit } from './types';
+import { Destination, Benefit } from './types.ts';
 
 export const DESTINATIONS: Destination[] = [
   {

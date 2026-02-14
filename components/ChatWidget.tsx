@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { startTravelChat } from '../services/gemini';
-import { Message } from '../types';
+import { startTravelChat } from '../services/gemini.ts';
+import { Message } from '../types.ts';
 
 const ChatWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +36,7 @@ const ChatWidget: React.FC = () => {
       setMessages(prev => [...prev, { role: 'model', text: response.text }]);
     } catch (error) {
       console.error('Chat error:', error);
-      setMessages(prev => [...prev, { role: 'model', text: 'Desculpe, tive um pequeno problema. Poderia repetir?' }]);
+      setMessages(prev => [...prev, { role: 'model', text: 'Descurpe, tive um pequeno problema. Poderia repetir?' }]);
     } finally {
       setIsLoading(false);
     }

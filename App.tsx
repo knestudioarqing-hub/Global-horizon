@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Marquee from './components/Marquee';
-import FeaturedDestinations from './components/FeaturedDestinations';
-import Testimonials from './components/Testimonials';
-import Benefits from './components/Benefits';
-import Footer from './components/Footer';
-import ChatWidget from './components/ChatWidget';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Marquee from './components/Marquee.tsx';
+import FeaturedDestinations from './components/FeaturedDestinations.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import Benefits from './components/Benefits.tsx';
+import Footer from './components/Footer.tsx';
+import ChatWidget from './components/ChatWidget.tsx';
 
 function App() {
   return (
