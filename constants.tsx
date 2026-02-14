@@ -1,5 +1,5 @@
 
-import { Destination, Benefit } from './types.ts';
+import { Destination, Benefit, Vehicle } from './types.ts';
 
 export const DESTINATIONS: Destination[] = [
   {
@@ -58,5 +58,68 @@ export const BENEFITS: Benefit[] = [
     title: 'Reserva Segura e Rápida',
     description: 'Garanta o seu lugar com segurança e rapidez através de nossa plataforma simplificada.',
     icon: 'verified_user'
+  }
+];
+
+export const VEHICLES: Vehicle[] = [
+  {
+    id: 'v1',
+    brand: 'Jeep',
+    model: 'Compass Limited',
+    pricePerDay: 450,
+    image: 'https://i.imgur.com/rcXxvNq.jpeg',
+    transmission: 'Automático',
+    passengers: 5,
+    category: 'SUV Premium'
+  },
+  {
+    id: 'v2',
+    brand: 'Volkswagen',
+    model: 'Taos Highline',
+    pricePerDay: 420,
+    image: 'https://i.imgur.com/QfaGZav.jpeg',
+    transmission: 'Automático',
+    passengers: 5,
+    category: 'SUV Conforto'
+  },
+  {
+    id: 'v3',
+    brand: 'Toyota',
+    model: 'Corolla Cross XRE',
+    pricePerDay: 480,
+    image: 'https://i.imgur.com/QIWdydN.jpeg',
+    transmission: 'Automático',
+    passengers: 5,
+    category: 'SUV Híbrido'
+  },
+  {
+    id: 'v4',
+    brand: 'Jeep',
+    model: 'Renegade Longitude',
+    pricePerDay: 350,
+    image: 'https://i.imgur.com/CDYK9ku.jpeg',
+    transmission: 'Automático',
+    passengers: 5,
+    category: 'Compact SUV'
+  },
+  {
+    id: 'v5',
+    brand: 'Volkswagen',
+    model: 'T-Cross Highline',
+    pricePerDay: 380,
+    image: 'https://i.imgur.com/4JWYuA0.jpeg',
+    transmission: 'Automático',
+    passengers: 5,
+    category: 'Dynamic SUV'
+  },
+  {
+    id: 'v6',
+    brand: 'Toyota',
+    model: 'SW4 Diamond',
+    pricePerDay: 850,
+    image: 'https://i.imgur.com/sPeh3i3.jpeg',
+    transmission: 'Automático',
+    passengers: 7,
+    category: 'Luxo 4x4'
   }
 ];

@@ -5,6 +5,7 @@ import Hero from './components/Hero.tsx';
 import Marquee from './components/Marquee.tsx';
 import FeaturedDestinations from './components/FeaturedDestinations.tsx';
 import Testimonials from './components/Testimonials.tsx';
+import VehicleRental from './components/VehicleRental.tsx';
 import Benefits from './components/Benefits.tsx';
 import Footer from './components/Footer.tsx';
 import ChatWidget from './components/ChatWidget.tsx';
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <Marquee />
         <FeaturedDestinations />
+        <VehicleRental />
         <Testimonials />
         <Benefits />
       </main>

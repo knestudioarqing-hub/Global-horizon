@@ -21,3 +21,14 @@ export interface Benefit {
   description: string;
   icon: string;
 }
+
+export interface Vehicle {
+  id: string;
+  brand: string;
+  model: string;
+  pricePerDay: number;
+  image: string;
+  transmission: string;
+  passengers: number;
+  category: string;
+}
