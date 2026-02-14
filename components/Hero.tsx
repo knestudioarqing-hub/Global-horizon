@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
       <div className="relative z-20 container mx-auto px-4 md:px-10 lg:px-40 flex flex-col items-center text-center mt-20">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mb-8">
           <span className="flex h-2 w-2 rounded-full bg-white animate-pulse"></span>
-          <span className="text-xs font-bold uppercase tracking-wider text-white">Nova Coleção 2026</span>
+          <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-white">Exclusivo para Amantes do Mundo</span>
           <svg className="w-4 h-4 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="9 5l7 7-7 7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </div>
         
